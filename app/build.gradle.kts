@@ -27,26 +27,6 @@ android {
 
         buildConfigField(
             "String",
-            "GOOGLE_SHEET_ID",
-            "\"${localProps["GOOGLE_SHEET_ID"]}\""
-        )
-        buildConfigField(
-            "String",
-            "GOOGLE_SHEET_NAME",
-            "\"${localProps["GOOGLE_SHEET_NAME"]}\""
-        )
-        buildConfigField(
-            "String",
-            "GOOGLE_API_KEY",
-            "\"${localProps["GOOGLE_API_KEY"]}\""
-        )
-        buildConfigField(
-            "String",
-            "SHEETS_PUBLISH_ID",
-            "\"${localProps["SHEETS_PUBLISH_ID"]}\""
-        )
-        buildConfigField(
-            "String",
             "SHEETS_CONTENT_KEY",
             "\"${localProps["SHEETS_CONTENT_KEY"]}\""
         )
